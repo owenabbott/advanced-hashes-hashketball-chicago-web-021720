@@ -260,7 +260,8 @@ def winning_team
         data.each do |player|
           away_score += player[:points]
       else
-        home_score += player[:points]
+          data.each do |player|
+          home_score += player[:points]
         end
       end
     end
