@@ -201,7 +201,8 @@ end
 
 
 def big_shoe_rebounds
-  for i in game_hash
+  
+  shoe_size()
 end
 
 
