@@ -256,7 +256,7 @@ def winning_team
   game_hash.each do |place, team|
     if place == away 
       for i in team
-        away_score += [:points]
+        away_score += team[:points]
         pp away_score
       end
     end
