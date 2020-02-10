@@ -207,7 +207,7 @@ def big_shoe_rebounds
         data.each do |player|
           feet = shoe_size(player[:player_name]).map
           pp feet
-          
+        end
         end
       end
     end
