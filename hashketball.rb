@@ -200,8 +200,8 @@ def player_stats(name)
 end
 
 
-def big_shoe_rebounds(argument)
-  pp argument
+def big_shoe_rebounds
+  for i in game_hash
 end
 
 
