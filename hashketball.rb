@@ -265,6 +265,7 @@ def winning_team
       end
     end
   end
+end
   pp away_score
   pp home_score
 end
