@@ -256,8 +256,8 @@ def winning_team
   game_hash.each do |place, team|
     if place == away 
       pp team
-        pp away_score
-      end
+        
+      
     end
   end
   pp away_score
