@@ -255,7 +255,7 @@ def winning_team
   away_score = 0 
   for i in game_hash
     if i[:away]
-      pp true
+      pp 'true'
     end
   end
 end
