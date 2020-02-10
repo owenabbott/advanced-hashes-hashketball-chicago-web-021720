@@ -209,7 +209,7 @@ def big_shoe_rebounds
           pp shoe_size(player[:player_name]
          # feet.push(shoe_size(player[:player_name]))
           
-        end
+        
       end
     end
   end
