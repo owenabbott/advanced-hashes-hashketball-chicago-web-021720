@@ -172,6 +172,7 @@ def player_numbers(team_name)
         if key == :players
           key.map do |key, value|
             key[:number]
+          end
         end
       end
     end
