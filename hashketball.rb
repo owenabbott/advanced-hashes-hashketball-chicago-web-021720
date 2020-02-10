@@ -275,6 +275,11 @@ def winning_team
     end
   end
   pp home_score
+  if home_score > away_score
+    return home_score
+  else
+    return away_score
+  end
 end
 
 
