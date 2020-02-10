@@ -259,9 +259,6 @@ def winning_team
       if attributes == :players && place == :away
         data.each do |player|
           away_score += player[:points]
-      else
-          data.each do |player|
-          home_score += player[:points]
         end
       end
     end
