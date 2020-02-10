@@ -185,9 +185,7 @@ def player_stats(name)
   for i in game_hash
     for n in i 
       for x in n 
-        if x[:player_name]==name
-          pp "Testing!!!!!!"
-        end
+          pp x
       end
     end
   end
