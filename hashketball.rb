@@ -201,13 +201,13 @@ end
 
 
 def big_shoe_rebounds
+  feet = []
     game_hash.each do |place, team|
     team.each do |attributes, data|
       if attributes == :players
         data.each do |player|
-          feet = shoe_size(player[:player_name]).map
+          feet.push (shoe_size(player[:player_name])
           pp feet
-        end
         end
       end
     end
