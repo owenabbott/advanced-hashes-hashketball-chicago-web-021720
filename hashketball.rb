@@ -330,6 +330,7 @@ def long_name_steals_a_ton?
           if player[:player_name]==longest_name && player[:steals]==steals.max
           return true
         end
+        end
       end
     end
   end
