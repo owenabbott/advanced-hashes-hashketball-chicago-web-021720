@@ -184,9 +184,7 @@ end
 def player_stats(name)
   for i in game_hash
     for n in i 
-      for x in n 
-          pp x
-      end
+      pp n
     end
   end
           
