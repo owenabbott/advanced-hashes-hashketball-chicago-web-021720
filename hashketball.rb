@@ -183,10 +183,8 @@ end
 
 def player_stats(name)
   for i in game_hash
-    for n in i 
-      if i[:player_name] == name
+    for n in i
         pp n
-      end
     end
   end
 end
