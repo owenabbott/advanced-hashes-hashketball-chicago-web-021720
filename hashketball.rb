@@ -267,7 +267,6 @@ def winning_team
     end
   end
   pp away_score
-  
     game_hash.each do |place, team|
     team.each do |attributes, data|
       if attributes == :players && place == :home
@@ -285,4 +284,17 @@ def winning_team
   end
 end
 
+def player_with_longest_name
+  name_lengths=[]
+  
+    game_hash.each do |place, team|
+    team.each do |attributes, data|
+      if attributes == :players
+        name_lengths.append attributes[:player_name].length 
+      end
+    end
+  end
+  pp name_lengths
+end
+        
 
