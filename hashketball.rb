@@ -254,6 +254,6 @@ def winning_team
   home_score = 0 
   away_score = 0 
   for i in game_hash[:away]
-    pp i[:players]
+    pp i
 end
 end
