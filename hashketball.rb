@@ -181,6 +181,19 @@ def player_numbers(team_name)
   array
 end
 
+def player_stats(name)
+  for i in game_hash
+    for n in i 
+      for x in n 
+        if x[:player_name]==name
+          pp "Testing!!!!!!"
+        end
+      end
+    end
+  end
+          
+end
+
 
 
 
