@@ -182,13 +182,19 @@ def player_numbers(team_name)
 end
 
 def player_stats(name)
-  for i in game_hash
-    for n in i
-      if n[:player_name]==name
-        pp "TESTING TESTING TESTING TESTING"
+  new_hash = {}
+  game_hash.each do |place, team|
+    team.each do |attributes, data|
+      if attributes == :players
+        data.each do |player|
+          if player[:player_name]==name
+            new_hash = player 
+          end
+        end
+      end
     end
   end
-  end
+  new_hash
 end
 
 
