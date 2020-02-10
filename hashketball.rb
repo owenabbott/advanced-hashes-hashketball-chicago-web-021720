@@ -258,13 +258,11 @@ def winning_team
     team.each do |attributes, data|
       if attributes == :players && place == :away
         data.each do |player|
-          scores.push(player[:points])
+          away_score += player[:points]
         end
       end
     end
   end
-
-
-
 end
+pp away_score
 end
