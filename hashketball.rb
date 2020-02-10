@@ -254,7 +254,7 @@ end
 def winning_team
   home_score = 0 
   away_score = 0 
-    game_hash.each do |place, team|
+  game_hash.each do |place, team|
     team.each do |attributes, data|
       if attributes == :players && place == :away
         data.each do |player|
@@ -263,6 +263,7 @@ def winning_team
       end
     end
   end
+  pp away_score
 end
-pp away_score
-end
+
+
