@@ -264,6 +264,16 @@ def winning_team
     end
   end
   pp away_score
+  
+    game_hash.each do |place, team|
+    team.each do |attributes, data|
+      if attributes == :players && place == :home
+        data.each do |player|
+          home_score += player[:points]
+        end
+      end
+    end
+  end
 end
 
 
