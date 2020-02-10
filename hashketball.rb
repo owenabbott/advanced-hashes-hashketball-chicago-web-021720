@@ -188,6 +188,7 @@ def player_stats(name)
         pp "TESTING TESTING TESTING TESTING"
     end
   end
+  end
 end
 
 
