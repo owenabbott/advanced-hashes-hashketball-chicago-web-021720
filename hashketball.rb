@@ -198,7 +198,7 @@ def player_stats(name)
   end
   new_hash
 end
-
+#####walkthrough doesn't make it past this part or the bonus questions so I'm going to do those on my own.
 
 def big_shoe_rebounds
   feet = []
@@ -226,6 +226,9 @@ end
 end
 
 
-
+def most_points_scored
+  scores = []
+  
+  
 
 
