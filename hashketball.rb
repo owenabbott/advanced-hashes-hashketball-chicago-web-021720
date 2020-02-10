@@ -172,7 +172,7 @@ def player_numbers(team_name)
       team.each do |key, value|
         if key == :players
           value.each do |player|
-            key[:number]
+            array << player[:number]
         end
       end
     end
