@@ -173,10 +173,12 @@ def player_numbers(team_name)
         if key == :players
           value.each do |player|
             array << player[:number]
+          end
         end
       end
     end
   end
+  array
 end
 
 
