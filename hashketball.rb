@@ -266,7 +266,7 @@ def winning_team
       end
     end
   end
-  pp away_score
+  #pp away_score
     game_hash.each do |place, team|
     team.each do |attributes, data|
       if attributes == :players && place == :home
@@ -276,7 +276,7 @@ def winning_team
       end
     end
   end
-  pp home_score
+  #pp home_score
   if home_score > away_score
     return home
   else
@@ -290,7 +290,7 @@ def player_with_longest_name
     game_hash.each do |place, team|
     team.each do |attributes, data|
       if attributes == :players
-        name_lengths.push attributes[:player_name].length 
+        name_lengths.push (attributes[:player_name].length)
       end
     end
   end
