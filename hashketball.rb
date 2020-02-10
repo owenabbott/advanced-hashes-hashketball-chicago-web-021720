@@ -205,7 +205,10 @@ def big_shoe_rebounds
     team.each do |attributes, data|
       if attributes == :players
         data.each do |player|
-  shoe_size()
+        pp shoe_size(player)
+      end
+    end
+  end
 end
 
 
