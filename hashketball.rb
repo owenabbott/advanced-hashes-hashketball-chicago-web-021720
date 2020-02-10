@@ -212,8 +212,8 @@ def big_shoe_rebounds
     end
   end
 end
-feet.sort()
-pp feet
+pp feet.max()
+
 end
 
 
