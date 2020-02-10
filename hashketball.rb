@@ -170,7 +170,8 @@ def player_numbers(team_name)
     if team[:team_name]==team_name
       team.each do |key, value|
         if key == :players
-          key.map [:number]
+          key.map do |key, value|
+            key[:number]
         end
       end
     end
