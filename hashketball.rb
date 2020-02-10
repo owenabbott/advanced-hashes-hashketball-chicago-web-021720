@@ -257,6 +257,7 @@ def winning_team
     if place == away 
       for i in team
         away_score += [:points]
+        pp away_score
       end
     end
   end
